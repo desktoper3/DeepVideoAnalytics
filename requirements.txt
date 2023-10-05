@@ -1,6 +1,6 @@
 pillow
 fabric
-django==1.11.20
+django==3.2.22
 jinja
 jinja2
 djangorestframework
@@ -40,3 +40,4 @@ jsonschema
 opencv-python==3.4.1.15
 sortedcontainers==2.0.4
 tensorflow-hub
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
