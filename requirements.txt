@@ -1,6 +1,6 @@
 pillow
 fabric
-django==1.11.20
+django==3.2.25
 jinja
 jinja2
 djangorestframework
@@ -8,7 +8,7 @@ markdown==2.6.11
 django-filter==1.1.0
 kombu==4.2.0
 amqp==2.2.2
-celery==4.2.0
+celery==5.2.2
 django-celery-results
 dj-database-url==0.4.0
 raven
@@ -40,3 +40,4 @@ jsonschema
 opencv-python==3.4.1.15
 sortedcontainers==2.0.4
 tensorflow-hub
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
